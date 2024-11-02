@@ -5,7 +5,7 @@ from docxtpl import DocxTemplate
 import datetime
 
 # Load data from Excel
-path = "F:\Work\excel-word\marks_data.xlsx"
+path = "F:\Startup\RnD\excel-word\marks_data.xlsx"
 workbook = openpyxl.load_workbook(path)
 sheet = workbook.active
 

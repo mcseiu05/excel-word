@@ -33,15 +33,18 @@ This project automates the generation of mark sheets from an Excel file. It read
 
 ## Usage
 
-Prepare your Excel file (marks_data.xlsx) with the following structure:
+- Prepare your Excel file (marks_data.xlsx) with the following structure:
 
-First row: Headers (e.g., Role, CSE_501, CSE_502, etc.)
-Subsequent rows: Student data
-Create a Word template (mark-sheet.docx) with placeholders for the data:
+   First row: Headers (e.g., Role, CSE_501, CSE_502, etc.)
+   Subsequent rows: Student data
 
-Use placeholders like {{ role }}, {{ cse_501 }}, {{ cse_502 }}, etc.
+- Create a Word template (mark-sheet.docx) with placeholders for the data:
 
-Run the script:
+- Use placeholders like {{ role }}, {{ cse_501 }}, {{ cse_502 }}, etc.
+- Please update the path of marks_data.xlsx in the main.py file.
+
+
+- Run the script:
 
    py main.py
 
