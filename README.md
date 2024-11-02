@@ -55,9 +55,9 @@ The generated Word documents will be saved in the same directory with names form
 
 Here is a brief example of the data format in the Excel file:
 
-- Role	CSE_501	CSE_502	CSE_503	CSE_504	CSE_505	CSE_506	CSE_507
-- John	   85	      90	      78	      92	      88	      75	      80
-- Alice	   78	      85	      80	      88	      84	      90	      87
+- CS0514019 55 65 62 70 57 72 60
+- CS0514020 57 75 42 60 67 52 70
+- CS0514021 65 75 72 50 67 62 50
 
 
 ## Contributing
