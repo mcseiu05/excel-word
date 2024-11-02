@@ -20,15 +20,16 @@ This project automates the generation of mark sheets from an Excel file. It read
 
 1. Clone this repository:
  
-   git clone https://github.com/yourusername/yourrepository.git
+   git clone https://github.com/mcseiu05/excel-word.git
    
 2. Navigate to the project directory:
-   cd yourrepository
+   cd excel-word
 
 3. Install the required libraries:
    pip install openpyxl docxtpl
 
-Usage
+## Usage
+
 Prepare your Excel file (marks_data.xlsx) with the following structure:
 
 First row: Headers (e.g., Role, CSE_501, CSE_502, etc.)
@@ -39,16 +40,20 @@ Use placeholders like {{ role }}, {{ cse_501 }}, {{ cse_502 }}, etc.
 
 Run the script:
 
-python your_script.py
+python main.py
 
 The generated Word documents will be saved in the same directory with names formatted as mark-sheet[Role].docx.
 
-Example
+
+## Example
+
 Here is a brief example of the data format in the Excel file:
 
 Role	CSE_501	CSE_502	CSE_503	CSE_504	CSE_505	CSE_506	CSE_507
-John	85	    90	    78	    92	    88	    75	    80
-Alice	78	    85	    80	    88	    84	    90	    87
+John	   85	      90	      78	      92	      88	      75	      80
+Alice	   78	      85	      80	      88	      84	      90	      87
 
-Contributing
+
+## Contributing
+
 Feel free to submit issues or pull requests if you have suggestions or improvements.

@@ -16,7 +16,7 @@ print(list_values)
 doc = DocxTemplate("mark-sheet.docx")
 
 for value_tuple in list_values[1:11]:
-    doc.render({"role": value_tuple[0],
+    doc.render({"role":    value_tuple[0],
                 "cse_501": value_tuple[1],
                 "cse_502": value_tuple[2],
                 "cse_503": value_tuple[3],
