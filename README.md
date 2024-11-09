@@ -19,12 +19,17 @@ This project automates the generation of mark sheets from an Excel file. It read
 ## Installation
 
 1. Clone this repository:
+
 `git clone https://github.com/mcseiu05/excel-word.git`
    
+
 2. Navigate to the project directory:
+
 `cd excel-word`
 
+
 3. Install the required libraries:
+
 `pip install openpyxl docxtpl`
 
 
