@@ -26,12 +26,12 @@ Install these packages with:
 - **Save to Output Directory**: Saves each document with a unique name (based on employee ID and timestamp) in the `generated_docs` folder.
 
 ## File Structure
-- **`performance_summary.xlsx`**: Excel file containing employee performance data.
+- **`performance-summary.xlsx`**: Excel file containing employee performance data.
 - **`performance-review.docx`**: Word template file with placeholders for employee data.
 - **`generated_docs/`**: Directory where generated documents are saved.
 
 ## Usage
-1. Place the Excel file (`performance_summary.xlsx`) and template (`performance-review.docx`) in the same directory as the script.
+1. Place the Excel file (`performance-summary.xlsx`) and template (`performance-review.docx`) in the same directory as the script.
 2. Run the script:
    
    `python main.py`
