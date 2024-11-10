@@ -37,7 +37,7 @@ for value_tuple in list_values[1:]:
 
     # Generate unique filename with timestamp
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    doc_name = OUTPUT_DIR / f"mark-sheet_{value_tuple[0]}_{timestamp}.docx"
+    doc_name = OUTPUT_DIR / f"performance-review_{value_tuple[0]}_{timestamp}.docx"
     doc.save(doc_name)
 
 print("Documents generated successfully!")
