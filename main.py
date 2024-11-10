@@ -4,7 +4,7 @@ from datetime import datetime
 from pathlib import Path
 
 # Constants
-EXCEL_PATH = Path("performance_summary.xlsx")
+EXCEL_PATH = Path("performance-summary.xlsx")
 TEMPLATE_PATH = Path("performance-review.docx")
 OUTPUT_DIR = Path("generated_docs")
 
