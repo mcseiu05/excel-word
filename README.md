@@ -20,7 +20,7 @@ Install these packages with:
  `pip install openpyxl docxtpl`
 
 ## How It Works
-- **Load Employee Data**: Reads employee data from an Excel file (`performance_summary.xlsx`).
+- **Load Employee Data**: Reads employee data from an Excel file (`performance-summary.xlsx`).
 - **Load Template**: Loads a Word document template (`performance-review.docx`) with placeholders for data fields like employee name, score, and remarks.
 - **Generate Documents**: Iterates through each row in the Excel file (excluding headers), fills the template with employee data, and saves a personalized `.docx` file.
 - **Save to Output Directory**: Saves each document with a unique name (based on employee ID and timestamp) in the `generated_docs` folder.
