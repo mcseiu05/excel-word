@@ -4,8 +4,8 @@ from datetime import datetime
 from pathlib import Path
 
 # Constants
-EXCEL_PATH = Path("F:/Startup/RnD/excel-word/marks_data.xlsx")
-TEMPLATE_PATH = Path("mark-sheet.docx")
+EXCEL_PATH = Path("performance_summary.xlsx")
+TEMPLATE_PATH = Path("performance-review.docx")
 OUTPUT_DIR = Path("generated_docs")
 
 # Ensure output directory exists
@@ -24,14 +24,14 @@ except Exception as e:
 for value_tuple in list_values[1:]:
     doc = DocxTemplate(TEMPLATE_PATH)
     context = {
-        "role":    value_tuple[0],
-        "cse_501": value_tuple[1],
-        "cse_502": value_tuple[2],
-        "cse_503": value_tuple[3],
-        "cse_504": value_tuple[4],
-        "cse_505": value_tuple[5],
-        "cse_506": value_tuple[6],
-        "cse_507": value_tuple[7],
+        "employee_id": value_tuple[0],
+        "employee_name": value_tuple[1],
+        "communication": value_tuple[2],
+        "problem_solving": value_tuple[3],
+        "teamwork": value_tuple[4],
+        "punctuality": value_tuple[5],
+        "total_score": value_tuple[6],
+        "remarks": value_tuple[7],
     }
     doc.render(context)
 
